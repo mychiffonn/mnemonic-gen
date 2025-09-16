@@ -44,7 +44,7 @@ Create a `.env` by cloning `.env.template`. You will need:
 
 ## Scripts
 
-To train the model with GRPO on LINKS dataset:
+To train the model with DPO on LINKS dataset:
 
 ```bash
 python scripts/train.py
