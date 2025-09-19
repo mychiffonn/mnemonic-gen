@@ -11,12 +11,16 @@ Main steps:
 1. Generate synthetic dataset simulating traces of reasoning through linguistic features and grounding creative writing to arrive at a mnemonic device, using LLMs + chain-of-thought rationales, and few- or many-shot in-context learning, and
 2. Distill linguistic reasoning to a smaller language model, so it can generate mnemonics for English vocabulary words, and
 3. Evaluate the model's performance on a test set of vocabulary words, using human evaluation and LLM-as-a-judge approach.
+4. Run small-scale DPO experiments on chosen-rejected pairs with some friends
 
 ## Setup
 
 Requirements: Linux, Python >=3.10 (>=3.11 recommended), PyTorch >=2.6, and a GPU with at least 16GB of VRAM.
 
 ### Installation
+
+⚠️ A dependency, `bespokelabs-curator` hasn't been actively maintained since Jul 2025 (after project).
+TODOs: Rewrite the code using `instructor` and use actively maintained libraries in the future.
 
 Prerequisites: Have [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html), [uv](https://docs.astral.sh/uv/), and git installed GLOBALLY (root user).
 
@@ -78,7 +82,7 @@ I'm a language learner myself, and I've always been fascinated by the power of m
 
 On the technical side, it's also a great opportunity for me to fuse some LLMOps practices with research in NLP & computational linguistics. I have a few technical goals:
 
-- Increase reproducibility of this project, by resolving the dependencies and environment issues, and tracking experiments and hyperparameter search
+- Increase reproducibility of this project, by resolving the dependencies and environment issues, and tracking experiments
 - Increase manageability of the project, by using a modular structure and clear documentation.
 - Have a template for future projects that involve post-training models on custom datasets.
-- Learn mathematical and technical details of SOTA techniques, such as LoRA (QLoRA, rank-stablized LoRA), instruction tuning, reinforcement learning.
+- Learn technical details of SOTA techniques, such as LoRA (QLoRA, rank-stablized LoRA), instruction tuning, and RLHF.

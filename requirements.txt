@@ -35,8 +35,8 @@ attrs==25.3.0
     #   referencing
 backoff==2.2.1
     # via posthog
-bespokelabs-curator==0.1.24
-    # via links (pyproject.toml)
+bespokelabs-curator==0.1.26
+    # via linksys (pyproject.toml)
 bitsandbytes==0.42.0
     # via unsloth
 cachetools==5.5.2
@@ -347,7 +347,7 @@ platformdirs==4.3.7
     #   wandb
 posthog==3.23.0
     # via bespokelabs-curator
-pre-commit==4.2.0
+pre-commit==4.3.0
     # via links (pyproject.toml)
 propcache==0.3.1
     # via
@@ -395,13 +395,10 @@ pydantic==2.11.4
     #   mistralai
     #   openai
     #   wandb
-    #   pydantic-settings
 pydantic-core==2.33.2
     # via
     #   instructor
     #   pydantic
-pydantic-settings==2.9.1
-    # via links (pyproject.toml)
 pygments==2.19.1
     # via rich
 pyparsing==3.2.3
@@ -467,7 +464,7 @@ rpds-py==0.24.0
     #   referencing
 rsa==4.9
     # via google-auth
-ruff==0.11.8
+ruff==0.13.1
     # via links (pyproject.toml)
 safetensors==0.5.3
     # via

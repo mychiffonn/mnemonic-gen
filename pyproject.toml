@@ -1,5 +1,5 @@
 [project]
-name = "linksys"
+name = "links"
 version = "0.3.0"
 description = "Generate linguistically grounded mnemonics for English vocabulary"
 authors = [{ name = "My Chiffon Nguyen", email = "chiffonng136@gmail.com" }]
@@ -26,7 +26,6 @@ dependencies = [
   "unsloth_zoo==2025.4.4 ; sys_platform == 'linux'",
   "rapidfuzz>=3.13.0",
   "scipy>=1.15.2",
-  "pydantic-settings>=2.9.1",
 ]
 license = "Apache-2.0"
 keywords = ["mnemonic", "mnemonic generation", "LLM", "language model", "chain of thought", "CoT", "synthetic data generation", "vocabulary learning", "vocabulary acquisition", "language learning", "natural language processing", "NLP", "machine learning", "ML", "deep learning", "DL", "AI", "artificial intelligence", "fine-tuning"]
