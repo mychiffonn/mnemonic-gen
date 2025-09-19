@@ -19,7 +19,7 @@ Requirements: Linux, Python >=3.10 (>=3.11 recommended), PyTorch >=2.6, and a GP
 
 ### Installation
 
-⚠️ A dependency, `bespokelabs-curator` hasn't been actively maintained since Jul 2025 (after project).
+⚠️ A dependency, [bespokelabs-curator](https://github.com/bespokelabsai/curator) hasn't been actively maintained since Jul 2025 (after project).
 TODOs: Rewrite the code using `instructor` and use actively maintained libraries in the future.
 
 Prerequisites: Have [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html), [uv](https://docs.astral.sh/uv/), and git installed GLOBALLY (root user).
